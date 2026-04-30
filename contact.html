@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Art Beyond Age | Dehradun Studio</title>
+  <meta name="description" content="Visit or reach out to Art Beyond Age. Our studio is based in Dehradun, Uttarakhand. Email: chandni.artbeyondage@gmail.com">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.artbeyondage.com/contact">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Us | Art Beyond Age | Dehradun Studio">
+  <meta property="og:description" content="Visit or reach out to Art Beyond Age. Our studio is based in Dehradun, Uttarakhand. Email: chandni.artbeyondage@gmail.com">
+  <meta property="og:url" content="https://www.artbeyondage.com/contact">
+  <meta property="og:image" content="https://www.artbeyondage.com/brand_assets/About Page Images/art-beyond-age-creative-aging-hero.webp">
+  <meta property="og:site_name" content="Art Beyond Age">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/webp" href="aba-icon.webp">
+  <link rel="shortcut icon" href="aba-icon.webp">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <div class="nav-left">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="/workshops" class="nav-link">Workshops</a>
+    </div>
+
+    <a href="/" class="nav-logo">
+      <img src="brand_assets/Logos/New Logo.webp" alt="Art Beyond Age — Creative Aging Studio, Dehradun">
+    </a>
+
+    <div class="nav-right">
+      <a href="/community" class="nav-link">Community</a>
+      <a href="/contact" class="nav-link">Contact</a>
+    </div>
+
+    <button class="nav-hamburger" id="navHamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="nav-mobile-menu" id="navMobileMenu" aria-hidden="true">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/about" class="nav-link">About</a>
+    <a href="/workshops" class="nav-link">Workshops</a>
+    <a href="/community" class="nav-link">Community</a>
+    <a href="/contact" class="nav-link">Contact</a>
+  </div>
+
+  <div class="page-header">
+    <div class="page-header-eyebrow">Get in Touch</div>
+    <h1 class="page-header-title">Contact Art Beyond Age<br><em>Dehradun Studio</em></h1>
+  </div>
+
+  <div class="contact-content">
+    <div>
+      <div class="contact-info-label">Studio</div>
+      <div class="contact-info-value">Dehradun, Uttarakhand<br>India</div>
+      <div class="contact-info-label">Email</div>
+      <div class="contact-info-value"><a href="mailto:chandni.artbeyondage@gmail.com">chandni.artbeyondage@gmail.com</a></div>
+      <div class="contact-info-label">Follow</div>
+      <div class="contact-info-value">Instagram · Facebook · WhatsApp</div>
+    </div>
+    <div class="contact-form">
+      <div class="form-group">
+        <label class="form-label">Your name</label>
+        <input class="form-input" type="text" placeholder="Full name">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email address</label>
+        <input class="form-input" type="email" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea class="form-textarea" placeholder="Tell us what you have in mind…"></textarea>
+      </div>
+      <button class="flow-btn">
+        <svg class="flow-arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        <span class="flow-text">Send message</span>
+        <span class="flow-circle"></span>
+        <svg class="flow-arrow-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-bottom" style="border-top: 0.5px solid var(--mist);">
+      <div class="footer-social">
+        <a href="https://www.instagram.com/artbeyondage" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/artbeyondage" target="_blank" rel="noopener">Facebook</a>
+        <a href="/contact">WhatsApp</a>
+      </div>
+      <div class="footer-copy">© 2025 Art Beyond Age. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('navHamburger');
+    const mobileMenu = document.getElementById('navMobileMenu');
+    const nav = document.getElementById('mainNav');
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('nav-open');
+      mobileMenu.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+      mobileMenu.setAttribute('aria-hidden', String(!isOpen));
+    });
+
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    const path = window.location.pathname.replace(/\/$/, '') || '/';
+    document.querySelectorAll('a.nav-link').forEach(link => {
+      if (link.getAttribute('href') === path) link.classList.add('active');
+    });
+  </script>
+
+</body>
+</html>

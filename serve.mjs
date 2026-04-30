@@ -10,11 +10,15 @@ const mime = {
   '.html': 'text/html', '.css': 'text/css', '.js': 'application/javascript',
   '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
   '.gif': 'image/gif', '.svg': 'image/svg+xml', '.ico': 'image/x-icon',
+  '.webp': 'image/webp',
   '.woff': 'font/woff', '.woff2': 'font/woff2', '.mp4': 'video/mp4',
 };
 
 http.createServer((req, res) => {
-  let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : decodeURIComponent(req.url));
+  const urlPath = decodeURIComponent(req.url.split('?')[0]);
+  let filePath = path.join(__dirname, urlPath === '/' ? 'index.html' : urlPath);
+  // Support clean URLs: /about → about.html, /workshops → workshops.html
+  if (!path.extname(filePath)) filePath += '.html';
   const ext = path.extname(filePath).toLowerCase();
   fs.readFile(filePath, (err, data) => {
     if (err) { res.writeHead(404); res.end('Not found'); return; }
