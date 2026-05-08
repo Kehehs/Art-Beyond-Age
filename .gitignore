@@ -1,3 +1,13 @@
 node_modules/
 temporary screenshots/
 .claude/
+
+# Next.js
+.next/
+next-env.d.ts
+
+# Raw source assets (converted versions live in content/blog/ and public/)
+IMG_0732.HEIC
+
+# Planning documents
+Blog Post Strategy - Art Beyond Age.md
