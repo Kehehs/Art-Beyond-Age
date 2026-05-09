@@ -1,0 +1,137 @@
+/* ── Page header ── */
+.pageHeader {
+  padding: 160px 48px 72px;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-bottom: 0.5px solid var(--mist);
+}
+
+.pageTitle {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.pageLead {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--dusk);
+  max-width: 600px;
+}
+
+/* ── Posts grid ── */
+.grid {
+  list-style: none;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+/* ── Single post card ── */
+.card {
+  padding: 56px 48px 56px 0;
+  border-top: 0.5px solid var(--mist);
+}
+
+.card:nth-child(even) {
+  padding-left: 48px;
+  padding-right: 0;
+  border-left: 0.5px solid var(--mist);
+}
+
+/* ── Meta row (date + keyword tag) ── */
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sage);
+}
+
+.tag {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clay);
+  border: 0.5px solid color-mix(in srgb, var(--clay) 50%, transparent);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+/* ── Card title ── */
+.cardTitle {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: 16px;
+  transition: color 0.2s ease;
+}
+
+.card:hover .cardTitle {
+  color: var(--clay);
+}
+
+/* ── Excerpt ── */
+.excerpt {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.72;
+  color: var(--dusk);
+  margin-bottom: 28px;
+}
+
+/* ── Empty state ── */
+.empty {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 48px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: var(--dusk);
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px 80px;
+  }
+
+  .card {
+    padding: 48px 0;
+  }
+
+  .card:nth-child(even) {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .pageHeader {
+    padding: 140px 20px 56px;
+  }
+}

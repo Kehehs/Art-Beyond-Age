@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/about.html", "destination": "/about", "permanent": true },
+    { "source": "/workshops.html", "destination": "/workshops", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/community.html", "destination": "/community", "permanent": true },
+    { "source": "/blog/what-is-creative-ageing", "destination": "/blog/what-is-creative-aging", "permanent": true }
+  ]
+}

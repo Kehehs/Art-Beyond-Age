@@ -1,0 +1,203 @@
+.main {
+  padding-top: 96px; /* clears the fixed nav */
+  background: var(--bone);
+  min-height: 100vh;
+}
+
+.article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 72px 32px 120px;
+}
+
+/* ── Headings ── */
+.article :global(h1) {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 32px;
+}
+
+.article :global(h2) {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+
+.article :global(h3) {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--clay);
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.article :global(h4) {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: var(--dusk);
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+/* ── Body text ── */
+.article :global(p) {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+
+/* ── Links ── */
+.article :global(a) {
+  color: var(--clay);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--clay) 40%, transparent);
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.article :global(a:hover) {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+/* ── Strong & Em ── */
+.article :global(strong) {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.article :global(em) {
+  font-style: italic;
+}
+
+/* ── Lists ── */
+.article :global(ul),
+.article :global(ol) {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: var(--ink);
+  padding-left: 28px;
+  margin-bottom: 24px;
+}
+
+.article :global(li) {
+  margin-bottom: 8px;
+}
+
+/* ── Blockquote ── */
+.article :global(blockquote) {
+  border-left: 3px solid var(--clay);
+  margin: 40px 0;
+  padding: 4px 0 4px 28px;
+}
+
+.article :global(blockquote p) {
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--dusk);
+  margin-bottom: 0;
+}
+
+/* ── Horizontal rule ── */
+.article :global(hr) {
+  border: none;
+  border-top: 0.5px solid var(--mist);
+  margin: 56px 0;
+}
+
+/* ── Images ── */
+.article :global(img) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 40px 0;
+  box-shadow:
+    0 2px 8px rgba(26, 26, 24, 0.06),
+    0 8px 32px rgba(26, 26, 24, 0.08);
+}
+
+/* ── Code ── */
+.article :global(code) {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  background: var(--warm-white);
+  border: 0.5px solid var(--mist);
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: var(--clay);
+}
+
+.article :global(pre) {
+  background: var(--warm-white);
+  border: 0.5px solid var(--mist);
+  border-radius: 4px;
+  padding: 24px;
+  overflow-x: auto;
+  margin-bottom: 24px;
+}
+
+.article :global(pre code) {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--ink);
+}
+
+/* ── Tables (remark-gfm) ── */
+.article :global(table) {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 32px;
+  font-size: 1rem;
+}
+
+.article :global(th) {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dusk);
+  border-bottom: 1px solid var(--mist);
+  padding: 10px 16px;
+  text-align: left;
+}
+
+.article :global(td) {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: var(--ink);
+  border-bottom: 0.5px solid var(--mist);
+  padding: 12px 16px;
+  vertical-align: top;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .article {
+    padding: 48px 20px 80px;
+  }
+}
