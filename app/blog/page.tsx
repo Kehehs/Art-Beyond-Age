@@ -7,15 +7,15 @@ import FlowBtn from '@/components/FlowBtn'
 import styles from './blog-listing.module.css'
 
 export const metadata: Metadata = {
-  title: 'Creative Ageing Blog | Art Beyond Age',
+  title: 'Creative Aging Blog | Art Beyond Age',
   description:
-    'Research, reflections, and stories on creative ageing, art therapy, and what it means to make something at every stage of life.',
+    'Research, reflections, and stories on creative aging, art therapy, and what it means to make something at every stage of life.',
   alternates: { canonical: 'https://www.artbeyondage.com/blog' },
   openGraph: {
     type: 'website',
-    title: 'Creative Ageing Blog | Art Beyond Age',
+    title: 'Creative Aging Blog | Art Beyond Age',
     description:
-      'Research, reflections, and stories on creative ageing, art therapy, and what it means to make something at every stage of life.',
+      'Research, reflections, and stories on creative aging, art therapy, and what it means to make something at every stage of life.',
     url: 'https://www.artbeyondage.com/blog',
     siteName: 'Art Beyond Age',
   },
@@ -83,10 +83,10 @@ export default function BlogListingPage() {
       <div className={styles.pageHeader}>
         <div className="section-eyebrow">The Studio Journal</div>
         <h1 className={styles.pageTitle}>
-          Creative Ageing —<br /><em>Insights &amp; Stories</em>
+          Creative Aging —<br /><em>Insights &amp; Stories</em>
         </h1>
         <p className={styles.pageLead}>
-          Research, reflections, and stories on creative ageing, art therapy, and what it means to
+          Research, reflections, and stories on creative aging, art therapy, and what it means to
           make something at every stage of life.
         </p>
       </div>

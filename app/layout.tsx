@@ -3,7 +3,7 @@ import '../styles.css'
 
 export const metadata: Metadata = {
   title: 'Art Beyond Age',
-  description: 'Creative Ageing Workshops for Adults 50+',
+  description: 'Creative Aging Workshops for Adults 50+',
   icons: { icon: '/aba-icon.webp' },
 }
 

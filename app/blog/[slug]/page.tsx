@@ -13,6 +13,8 @@ const POSTS_DIR = path.join(process.cwd(), 'content', 'blog')
 type Frontmatter = {
   title?: string
   description?: string
+  ogImage?: string
+  publishDate?: string
   [key: string]: unknown
 }
 
@@ -40,11 +42,26 @@ export async function generateMetadata({
   const { slug } = await params
   const post = getPost(slug)
   if (!post) return {}
+  const { frontmatter } = post
   return {
-    title: post.frontmatter.title
-      ? `${post.frontmatter.title} | Art Beyond Age`
+    title: frontmatter.title
+      ? `${frontmatter.title} | Art Beyond Age`
       : 'Art Beyond Age Blog',
-    description: post.frontmatter.description ?? '',
+    description: frontmatter.description ?? '',
+    alternates: {
+      canonical: `https://www.artbeyondage.com/blog/${slug}`,
+    },
+    openGraph: {
+      type: 'article',
+      title: frontmatter.title ?? undefined,
+      description: frontmatter.description ?? '',
+      url: `https://www.artbeyondage.com/blog/${slug}`,
+      siteName: 'Art Beyond Age',
+      publishedTime: frontmatter.publishDate ?? undefined,
+      images: frontmatter.ogImage
+        ? [{ url: frontmatter.ogImage, width: 1200, height: 630, alt: frontmatter.title ?? '' }]
+        : undefined,
+    },
   }
 }
 
