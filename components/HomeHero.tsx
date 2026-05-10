@@ -16,8 +16,8 @@ export default function HomeHero() {
     const mq = window.matchMedia('(max-width: 768px)')
     const applyVideoSrc = (e: MediaQueryList | MediaQueryListEvent) => {
       const src = e.matches
-        ? '/mobileviewherovid.mp4'
-        : '/brand_assets/homepage-hero-section .mp4'
+        ? 'https://fpgp9n493uskbupx.private.blob.vercel-storage.com/mobileviewherovid.mp4'
+        : 'https://fpgp9n493uskbupx.private.blob.vercel-storage.com/homepage-hero-section%20.mp4'
       if (source.getAttribute('src') !== src) {
         source.setAttribute('src', src)
         video.load()
@@ -49,7 +49,7 @@ export default function HomeHero() {
   return (
     <section className="hero">
       <video ref={videoRef} className="hero-video" autoPlay muted loop playsInline>
-        <source src="/brand_assets/homepage-hero-section .mp4" type="video/mp4" />
+        <source src="https://fpgp9n493uskbupx.private.blob.vercel-storage.com/homepage-hero-section%20.mp4" type="video/mp4" />
       </video>
       <div ref={overlayRef} className="hero-overlay" />
       <div className="hero-caption-bar">
