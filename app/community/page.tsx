@@ -5,14 +5,14 @@ import FlowBtn from '@/components/FlowBtn'
 export const metadata: Metadata = {
   title: 'The ABA Circle | Creative Aging Community | Art Beyond Age',
   description:
-    'Join the ABA Circle — a growing community of adults 50+ who gather around the practice of making art in Dehradun and beyond.',
+    'Join the ABA Circle , a growing community of adults 50+ who gather around the practice of making art in Dehradun and beyond.',
   robots: 'index, follow',
   alternates: { canonical: 'https://www.artbeyondage.com/community' },
   openGraph: {
     type: 'website',
     title: 'The ABA Circle | Creative Aging Community | Art Beyond Age',
     description:
-      'Join the ABA Circle — a growing community of adults 50+ who gather around the practice of making art in Dehradun and beyond.',
+      'Join the ABA Circle , a growing community of adults 50+ who gather around the practice of making art in Dehradun and beyond.',
     url: 'https://www.artbeyondage.com/community',
     siteName: 'Art Beyond Age',
     images: [
@@ -38,7 +38,7 @@ export default function CommunityPage() {
         <div className="community-hero-text">
           <div className="hero-caption-label" style={{ marginBottom: '12px' }}>The ABA Circle</div>
           <h1 className="community-hero-title">
-            The ABA Circle —<br /><em>Creative Aging Community</em>
+            The ABA Circle ,<br /><em>Creative Aging Community</em>
           </h1>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default function CommunityPage() {
         </div>
         <h2 className="world-title">Art that grows<br /><em>with you.</em></h2>
         <p className="world-body">
-          Every programme is designed with intention — slow, considered, and deeply human. We
+          Every programme is designed with intention , slow, considered, and deeply human. We
           believe that creativity is a practice of presence, and presence is the foundation of
           wellness.
         </p>
@@ -59,7 +59,7 @@ export default function CommunityPage() {
             <div className="world-item-label">Always Open For</div>
             <div className="world-item-title">Beginners &amp; Returning Artists</div>
             <p className="world-item-body">
-              No portfolio. No prerequisites. Our workshops are designed as gentle entry points —
+              No portfolio. No prerequisites. Our workshops are designed as gentle entry points ,
               a welcome back to the creative self you&apos;ve always carried.
             </p>
             <FlowBtn href="/contact">Learn more</FlowBtn>
@@ -78,7 +78,7 @@ export default function CommunityPage() {
             <div className="world-item-label">Where We Are</div>
             <div className="world-item-title">The Official ABA Studio</div>
             <p className="world-item-body">
-              Our home in Dehradun — a calm, unhurried space filled with natural light, quality
+              Our home in Dehradun , a calm, unhurried space filled with natural light, quality
               materials, and the quiet hum of people absorbed in making. Open for visits.
             </p>
             <FlowBtn href="/contact">Find the studio</FlowBtn>
@@ -92,7 +92,7 @@ export default function CommunityPage() {
           <div className="section-eyebrow">Stay Connected</div>
           <h2 className="inspire-heading">Get<br /><em>Inspired</em></h2>
           <p className="inspire-body">
-            Receive gentle dispatches from the studio — new workshop announcements, reflections on
+            Receive gentle dispatches from the studio , new workshop announcements, reflections on
             creative aging, and glimpses of what&apos;s being made.
           </p>
           <div className="inspire-email-row">
@@ -130,7 +130,7 @@ export default function CommunityPage() {
               alt: 'Creative aging and wellbeing research at Art Beyond Age workshop, Dehradun',
               label: 'Wellbeing',
               title: 'The Science of Creative Aging',
-              body: 'What the research says — and why our experience confirms every word of it.',
+              body: 'What the research says , and why our experience confirms every word of it.',
             },
           ].map((card) => (
             <div key={card.title} className="inspire-card">

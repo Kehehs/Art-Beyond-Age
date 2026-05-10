@@ -83,7 +83,7 @@ export default function BlogListingPage() {
       <div className={styles.pageHeader}>
         <div className="section-eyebrow">The Studio Journal</div>
         <h1 className={styles.pageTitle}>
-          Creative Aging —<br /><em>Insights &amp; Stories</em>
+          Creative Aging ,<br /><em>Insights &amp; Stories</em>
         </h1>
         <p className={styles.pageLead}>
           Research, reflections, and stories on creative aging, art therapy, and what it means to

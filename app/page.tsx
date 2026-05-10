@@ -6,14 +6,14 @@ import FlowBtn from '@/components/FlowBtn'
 export const metadata: Metadata = {
   title: 'Art Beyond Age | Creative Aging Workshops for Adults 50+ | Dehradun',
   description:
-    'Art Beyond Age offers evidence-based creative aging workshops for adults 50 and above in Dehradun. Painting, watercolour, mandala, and mixed media — designed for seniors.',
+    'Art Beyond Age offers evidence-based creative aging workshops for adults 50 and above in Dehradun. Painting, watercolour, mandala, and mixed media , designed for seniors.',
   robots: 'index, follow',
   alternates: { canonical: 'https://www.artbeyondage.com/' },
   openGraph: {
     type: 'website',
     title: 'Art Beyond Age | Creative Aging Workshops for Adults 50+ | Dehradun',
     description:
-      'Art Beyond Age offers evidence-based creative aging workshops for adults 50 and above in Dehradun. Painting, watercolour, mandala, and mixed media — designed for seniors.',
+      'Art Beyond Age offers evidence-based creative aging workshops for adults 50 and above in Dehradun. Painting, watercolour, mandala, and mixed media , designed for seniors.',
     url: 'https://www.artbeyondage.com/',
     siteName: 'Art Beyond Age',
     images: [
@@ -62,12 +62,12 @@ export default function HomePage() {
         <div className="featured-text">
           <div className="section-eyebrow">Our Philosophy</div>
           <h2 className="featured-heading">
-            Creativity does not<br />diminish with age —<br />it <em>deepens.</em>
+            Creativity does not<br />diminish with age ,<br />it <em>deepens.</em>
           </h2>
           <p className="featured-body">
             Art Beyond Age was founded on a quiet conviction: that the second half of life is not a
             retreat from expression, but its fullest arrival. Our workshops are unhurried, meditative
-            spaces where adults 50 and beyond discover — or rediscover — the transformative power of
+            spaces where adults 50 and beyond discover , or rediscover , the transformative power of
             making.
           </p>
           <FlowBtn href="/about">Our story</FlowBtn>
@@ -147,8 +147,8 @@ export default function HomePage() {
             <div className="ca-feature-num">01</div>
             <div className="ca-feature-title">Technique with Therapeutic Intent</div>
             <p className="ca-feature-body">
-              Every medium — from the repetitive, anxiety-reducing geometry of Mandala Drawing to
-              the sensory-rich Watercolor Wash — is selected for its specific cognitive and
+              Every medium , from the repetitive, anxiety-reducing geometry of Mandala Drawing to
+              the sensory-rich Watercolor Wash , is selected for its specific cognitive and
               accessibility benefits.
             </p>
           </div>
@@ -175,7 +175,7 @@ export default function HomePage() {
             <div className="ca-feature-title">Our Workshops</div>
             <p className="ca-feature-body">
               We provide a structured environment where the "magic" of an art session is turned into
-              a repeatable, data-driven experience — about returning to oneself through supportive
+              a repeatable, data-driven experience , about returning to oneself through supportive
               community and professional-grade instruction.
             </p>
           </div>
@@ -185,7 +185,7 @@ export default function HomePage() {
       {/* QUOTE BAND */}
       <div className="quote-band">
         <div className="quote-text">"Your most expressive years are still ahead."</div>
-        <div className="quote-attr">Art Beyond Age — Creative Aging &amp; Wellness</div>
+        <div className="quote-attr">Art Beyond Age , Creative Aging &amp; Wellness</div>
       </div>
 
       {/* FOOTER */}
@@ -194,7 +194,7 @@ export default function HomePage() {
           <div className="footer-brand">
             <img
               src="/brand_assets/Logos/Logo.webp"
-              alt="Art Beyond Age logo — Creative Aging Studio, Dehradun"
+              alt="Art Beyond Age logo , Creative Aging Studio, Dehradun"
             />
             <p className="footer-brand-body">
               A premium independent community for creative aging and mental wellness, for adults 50

@@ -4,14 +4,14 @@ import SiteNav from '@/components/SiteNav'
 export const metadata: Metadata = {
   title: 'Our Story & Philosophy | Art Beyond Age | Dehradun',
   description:
-    'Meet the founders of Art Beyond Age and learn how we built India\'s leading creative aging platform — rooted in the GRACE framework and evidence-based wellness.',
+    'Meet the founders of Art Beyond Age and learn how we built India\'s leading creative aging platform , rooted in the GRACE framework and evidence-based wellness.',
   robots: 'index, follow',
   alternates: { canonical: 'https://www.artbeyondage.com/about' },
   openGraph: {
     type: 'website',
     title: 'Our Story & Philosophy | Art Beyond Age | Dehradun',
     description:
-      'Meet the founders of Art Beyond Age and learn how we built India\'s leading creative aging platform — rooted in the GRACE framework and evidence-based wellness.',
+      'Meet the founders of Art Beyond Age and learn how we built India\'s leading creative aging platform , rooted in the GRACE framework and evidence-based wellness.',
     url: 'https://www.artbeyondage.com/about',
     siteName: 'Art Beyond Age',
     images: [
@@ -35,7 +35,7 @@ export default function AboutPage() {
         />
         <div className="about-hero-overlay" />
         <div className="about-hero-caption">
-          <div className="about-hero-label">Art Beyond Age — Dehradun</div>
+          <div className="about-hero-label">Art Beyond Age , Dehradun</div>
           <h1 className="about-hero-title">
             Building India&apos;s Leading<br />Creative Aging Platform<br />
             for <em>adults 50 and above.</em>
@@ -46,7 +46,7 @@ export default function AboutPage() {
       {/* SECTION 1: OUR GOAL & PURPOSE */}
       <div className="about-section" id="goal-purpose">
         <div className="about-cols">
-          <div className="about-col-label">01 — Our Goal &amp; Purpose</div>
+          <div className="about-col-label">01 , Our Goal &amp; Purpose</div>
           <div className="about-col-content">
             <div className="about-subhead">The Gap in Creative Aging</div>
             <p className="about-body-text">
@@ -77,7 +77,7 @@ export default function AboutPage() {
       <div className="about-full-img">
         <img
           src="/brand_assets/About Page Images/creative-aging-workshop-facilitator-dehradun.webp"
-          alt="Chandni Kamboj facilitating a creative aging workshop — Art Beyond Age studio, Dehradun"
+          alt="Chandni Kamboj facilitating a creative aging workshop , Art Beyond Age studio, Dehradun"
         />
         <div className="about-full-img-overlay" />
       </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
       {/* SECTION 2: THE JOURNEY */}
       <div className="about-section" id="journey">
         <div className="about-cols">
-          <div className="about-col-label">02 — The Journey</div>
+          <div className="about-col-label">02 , The Journey</div>
           <div className="about-col-content">
             <div className="about-subhead">Born in Dehradun</div>
             <p className="about-body-text">
@@ -113,7 +113,7 @@ export default function AboutPage() {
             </p>
             <p className="about-body-text">
               To capture this, we developed{' '}
-              <span className="about-grace-tag">GRACE</span> — a five-domain observational
+              <span className="about-grace-tag">GRACE</span> , a five-domain observational
               framework that captures the emotional arc of every creative aging session. This turned
               an intuitive feeling into a rigorous methodology. Today, Art Beyond Age is evolving
               from a local workshop into a global platform, ensuring that the transformation seen in
@@ -125,7 +125,7 @@ export default function AboutPage() {
 
       {/* PARTICIPANT QUOTE */}
       <div className="about-participant-quote">
-        <div className="about-participant-quote-label">Workshop I — Dehradun</div>
+        <div className="about-participant-quote-label">Workshop I , Dehradun</div>
         <div>
           <span className="about-quote-mark">"</span>
           <div className="about-quote-text">
@@ -139,7 +139,7 @@ export default function AboutPage() {
       <div className="about-full-img">
         <img
           src="/brand_assets/About Page Images/creative-aging-workshop-participants-dehradun.webp"
-          alt="Seniors participating in Art Beyond Age creative aging workshop — Art Beyond Age studio, Dehradun"
+          alt="Seniors participating in Art Beyond Age creative aging workshop , Art Beyond Age studio, Dehradun"
         />
         <div className="about-full-img-overlay" />
       </div>
@@ -147,7 +147,7 @@ export default function AboutPage() {
       {/* SECTION 3: MEET THE TEAM */}
       <div className="about-team-section" id="team">
         <div className="about-team-header">
-          <div className="about-col-label">03 — Meet the Team</div>
+          <div className="about-col-label">03 , Meet the Team</div>
           <div>
             <div className="about-team-title">
               The people behind<br />the{' '}
@@ -181,7 +181,7 @@ export default function AboutPage() {
               </p>
               <p>
                 Throughout years of teaching, Chandni discovered her true calling: she felt most
-                alive when her students were older. She was moved by their unique courage — the
+                alive when her students were older. She was moved by their unique courage , the
                 willingness to try something new, risk embarrassment, and sit with imperfection.
               </p>
               <p>
@@ -206,14 +206,14 @@ export default function AboutPage() {
             <div className="about-founder-name">Mahesh<br /><em>Rai</em></div>
             <div className="about-founder-body">
               <p>
-                A Dubai-based entrepreneur, Mahesh brings a wealth of experience in trade-tech
-                platform architecture, B2B systems, and scaling ventures across India and the UAE.
+                A strategic entrepreneur, Mahesh brings a wealth of experience in trade-tech
+                platform architecture, B2B systems, and scaling ventures across multiple continents.
                 Where others saw a wellness project, Mahesh saw an unmet market and a defensible
                 methodology with the power to move institutions.
               </p>
               <p>
                 His role is the infrastructure and strategy behind the art. He provides the
-                frameworks that turn a beautiful idea into an enduring business — developing the
+                frameworks that turn a beautiful idea into an enduring business , developing the
                 measurement layers, AI-powered analytics dashboards, and the institutional licensing
                 models.
               </p>
@@ -230,7 +230,7 @@ export default function AboutPage() {
       {/* CLOSING QUOTE */}
       <div className="quote-band">
         <div className="quote-text">"Your most expressive years are still ahead."</div>
-        <div className="quote-attr">Art Beyond Age — Primary Tagline</div>
+        <div className="quote-attr">Art Beyond Age , Primary Tagline</div>
       </div>
 
       <footer>

@@ -4,14 +4,14 @@ import SiteNav from '@/components/SiteNav'
 export const metadata: Metadata = {
   title: 'Workshops & Curriculum | Art Beyond Age | Dehradun',
   description:
-    'Explore our 12-week creative aging curriculum — watercolour, mandala, botanical painting, and more. Adaptive techniques for seniors with arthritis, tremors, or memory concerns.',
+    'Explore our 12-week creative aging curriculum , watercolour, mandala, botanical painting, and more. Adaptive techniques for seniors with arthritis, tremors, or memory concerns.',
   robots: 'index, follow',
   alternates: { canonical: 'https://www.artbeyondage.com/workshops' },
   openGraph: {
     type: 'website',
     title: 'Workshops & Curriculum | Art Beyond Age | Dehradun',
     description:
-      'Explore our 12-week creative aging curriculum — watercolour, mandala, botanical painting, and more. Adaptive techniques for seniors with arthritis, tremors, or memory concerns.',
+      'Explore our 12-week creative aging curriculum , watercolour, mandala, botanical painting, and more. Adaptive techniques for seniors with arthritis, tremors, or memory concerns.',
     url: 'https://www.artbeyondage.com/workshops',
     siteName: 'Art Beyond Age',
     images: [
@@ -55,11 +55,11 @@ export default function WorkshopsPage() {
         <img
           className="ws-hero-img"
           src="/brand_assets/Workshops Page Images/Workshop 3/senior-art-workshop-dehradun-10.webp"
-          alt="Senior participants in Art Beyond Age workshop — Art Beyond Age studio, Dehradun"
+          alt="Senior participants in Art Beyond Age workshop , Art Beyond Age studio, Dehradun"
         />
         <div className="ws-hero-overlay" />
         <div className="ws-hero-content">
-          <div className="ws-hero-eyebrow">Art Beyond Age — Dehradun</div>
+          <div className="ws-hero-eyebrow">Art Beyond Age , Dehradun</div>
           <h1 className="ws-hero-title">
             Art Workshops &amp; Curriculum<br />for Seniors | <em>Dehradun</em>
           </h1>
@@ -79,7 +79,7 @@ export default function WorkshopsPage() {
       {/* 12-WEEK CURRICULUM */}
       <div className="ws-section" id="foundation-curriculum">
         <div className="ws-section-header">
-          <div className="ws-section-label">01 — The Foundation Curriculum</div>
+          <div className="ws-section-label">01 , The Foundation Curriculum</div>
           <h2 className="ws-section-title">The 12-Week Journey</h2>
           <p className="ws-section-desc">
             The program is structured as three 4-week arcs, each building on the last. By Week 12,
@@ -91,7 +91,7 @@ export default function WorkshopsPage() {
           {[
             {
               img: '/brand_assets/Workshops Page Images/12 week Curriculum/12 week curriculum phase 1.webp',
-              alt: 'Phase 1 Safety and Play — Art Beyond Age 12-week creative aging curriculum, Dehradun',
+              alt: 'Phase 1 Safety and Play , Art Beyond Age 12-week creative aging curriculum, Dehradun',
               num: '01',
               weeks: 'Weeks 1–4',
               title: 'Safety & Play',
@@ -100,7 +100,7 @@ export default function WorkshopsPage() {
             },
             {
               img: '/brand_assets/Workshops Page Images/12 week Curriculum/12 week curriculum phase 2.webp',
-              alt: 'Phase 2 Skill and Meaning — Art Beyond Age creative aging workshop curriculum, Dehradun',
+              alt: 'Phase 2 Skill and Meaning , Art Beyond Age creative aging workshop curriculum, Dehradun',
               num: '02',
               weeks: 'Weeks 5–8',
               title: 'Skill & Meaning',
@@ -109,7 +109,7 @@ export default function WorkshopsPage() {
             },
             {
               img: '/brand_assets/Workshops Page Images/12 week Curriculum/12 week curriculum phase 3.webp',
-              alt: 'Phase 3 Legacy and Celebration — Art Beyond Age senior art program, Dehradun',
+              alt: 'Phase 3 Legacy and Celebration , Art Beyond Age senior art program, Dehradun',
               num: '03',
               weeks: 'Weeks 9–12',
               title: 'Legacy & Celebration',
@@ -139,7 +139,7 @@ export default function WorkshopsPage() {
       {/* ART TECHNIQUES */}
       <div className="ws-section" id="art-techniques">
         <div className="ws-section-header">
-          <div className="ws-section-label">02 — Art Techniques</div>
+          <div className="ws-section-label">02 , Art Techniques</div>
           <h2 className="ws-section-title">The Practices We Use</h2>
           <p className="ws-section-desc">
             Techniques are chosen for their therapeutic and accessibility properties, specifically
@@ -150,37 +150,37 @@ export default function WorkshopsPage() {
           {[
             {
               img: '/brand_assets/Workshops Page Images/Art Techniques/Art techniques watercolor.webp',
-              alt: 'Watercolour wash technique for seniors — Art Beyond Age workshop, Dehradun',
+              alt: 'Watercolour wash technique for seniors , Art Beyond Age workshop, Dehradun',
               name: 'Watercolor Wash',
               body: 'The flow of water and pigment is pleasurable and forgiving. It rewards spontaneity and penalizes rigidity, facilitating the psychological shift seniors need. Deeply calming sensory experience.',
             },
             {
               img: '/brand_assets/Workshops Page Images/Art Techniques/Art technique-Mandala Drawing.webp',
-              alt: 'Mandala drawing technique for cognitive wellness — Art Beyond Age workshop, Dehradun',
+              alt: 'Mandala drawing technique for cognitive wellness , Art Beyond Age workshop, Dehradun',
               name: 'Mandala Drawing',
               body: 'Repetitive, meditative geometry clinically shown to reduce anxiety. Provides cognitive scaffolding for those with early memory concerns and resonates culturally with Indian seniors.',
             },
             {
               img: '/brand_assets/Workshops Page Images/Art Techniques/Art technique-Botanical Painting.webp',
-              alt: 'Botanical painting class for seniors — Art Beyond Age workshop, Dehradun',
+              alt: 'Botanical painting class for seniors , Art Beyond Age workshop, Dehradun',
               name: 'Botanical Painting',
-              body: 'Connects to deep cultural memories of nature and gardening. Observation of living things promotes mindfulness. The subject matter is inherently forgiving — nature has no "wrong" shapes.',
+              body: 'Connects to deep cultural memories of nature and gardening. Observation of living things promotes mindfulness. The subject matter is inherently forgiving , nature has no "wrong" shapes.',
             },
             {
               img: '/brand_assets/Workshops Page Images/Art Techniques/Art techniques collage.webp',
-              alt: 'Collage and mixed media art for seniors — Art Beyond Age workshop, Dehradun',
+              alt: 'Collage and mixed media art for seniors , Art Beyond Age workshop, Dehradun',
               name: 'Collage & Mixed Media',
               body: 'Inclusive and requiring no drawing skill. The act of choosing and placing images is inherently narrative, allowing participants to create visual autobiographies (Life-Review).',
             },
             {
               img: '/brand_assets/Workshops Page Images/Art Techniques/Art techniques block printing.webp',
-              alt: 'Hand and block printing technique for senior artists — Art Beyond Age workshop, Dehradun',
+              alt: 'Hand and block printing technique for senior artists , Art Beyond Age workshop, Dehradun',
               name: 'Hand & Block Printing',
               body: 'Removes "drawing anxiety." Exercises fine motor coordination through the physical sensation of pressing and lifting. Produces repeatable, beautiful results that build confidence.',
             },
             {
               img: '/brand_assets/Workshops Page Images/Art Techniques/Art technique-Acrylic on canvas.webp',
-              alt: 'Acrylic on canvas painting for older adults — Art Beyond Age workshop, Dehradun',
+              alt: 'Acrylic on canvas painting for older adults , Art Beyond Age workshop, Dehradun',
               name: 'Acrylic on Canvas',
               body: 'Creates a "trophy-worthy" physical artifact. Validating to hold a stretched canvas. The opacity allows mistakes to be painted over, removing permanent mistake anxiety.',
             },
@@ -199,19 +199,19 @@ export default function WorkshopsPage() {
       {/* ACCESSIBILITY FRAMEWORK */}
       <div className="ws-access-new" id="accessibility-framework">
         <div className="ws-section-header">
-          <div className="ws-section-label">03 — Accessibility Framework</div>
+          <div className="ws-section-label">03 , Accessibility Framework</div>
           <h2 className="ws-section-title">Designed for Every Body</h2>
           <p className="ws-section-desc">
             Creative Aging is not a "watered-down" art class. It is art designed from the ground
             up for older adults. Adaptations are framed as creative techniques, not accommodations
-            — preserving dignity at every step.
+            , preserving dignity at every step.
           </p>
         </div>
         <div className="ws-access-grid">
           {[
             {
               img: '/brand_assets/Workshops Page Images/Accesibilty framework images/Arthritis toolkit.webp',
-              alt: 'Adaptive art tools for seniors with arthritis — Art Beyond Age accessibility framework, Dehradun',
+              alt: 'Adaptive art tools for seniors with arthritis , Art Beyond Age accessibility framework, Dehradun',
               cat: 'For Arthritis & Limited Grip',
               items: [
                 'Wider, foam-handled brushes requiring minimal pressure',
@@ -223,7 +223,7 @@ export default function WorkshopsPage() {
             },
             {
               img: '/brand_assets/Workshops Page Images/Accesibilty framework images/Tremors & parkinsons wet on wet toolkit.webp',
-              alt: 'Wet-on-wet watercolour technique for seniors with tremors and Parkinson\'s — Art Beyond Age, Dehradun',
+              alt: 'Wet-on-wet watercolour technique for seniors with tremors and Parkinson\'s , Art Beyond Age, Dehradun',
               cat: 'For Tremor & Parkinson\'s',
               items: [
                 'Watercolour wet-on-wet: water absorbs tremor into natural texture',
@@ -235,7 +235,7 @@ export default function WorkshopsPage() {
             },
             {
               img: '/brand_assets/Workshops Page Images/Accesibilty framework images/Early Memory Concerns Multi-Sensory Engagement.webp',
-              alt: 'Multi-sensory art engagement for seniors with early memory concerns — Art Beyond Age, Dehradun',
+              alt: 'Multi-sensory art engagement for seniors with early memory concerns , Art Beyond Age, Dehradun',
               cat: 'For Early Memory Concerns',
               items: [
                 'Consistent session structure to reduce cognitive load',
@@ -247,7 +247,7 @@ export default function WorkshopsPage() {
             },
             {
               img: '/brand_assets/Workshops Page Images/Accesibilty framework images/Vision Impairment The Tactile & High-Contrast Scaffold.webp',
-              alt: 'Tactile and high-contrast art scaffold for seniors with vision impairment — Art Beyond Age, Dehradun',
+              alt: 'Tactile and high-contrast art scaffold for seniors with vision impairment , Art Beyond Age, Dehradun',
               cat: 'For Vision Impairment',
               items: [
                 'High-contrast materials (black on white, vivid colors)',
@@ -276,7 +276,7 @@ export default function WorkshopsPage() {
       {/* WORKSHOP GALLERY */}
       <div className="ws-gallery-section" id="gallery">
         <div className="ws-section-header">
-          <div className="ws-section-label">04 — Workshop Gallery</div>
+          <div className="ws-section-label">04 , Workshop Gallery</div>
           <h2 className="ws-section-title">Our Workshops in Action</h2>
         </div>
 
