@@ -46,7 +46,7 @@ export default function ContactPage() {
             <a href="mailto:chandni.artbeyondage@gmail.com">chandni.artbeyondage@gmail.com</a>
           </div>
           <div className="contact-info-label">Follow</div>
-          <div className="contact-info-value">Instagram · Facebook · WhatsApp</div>
+          <div className="contact-info-value"><a href="https://www.instagram.com/chandni.artbeyondage?igsh=eTkzNjIwa3FtbDJo" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/share/14fsjwrQy7F/" target="_blank" rel="noopener">Facebook</a> · <a href="https://wa.me/qr/YPCCUYQFCTIGE1" target="_blank" rel="noopener">WhatsApp</a></div>
         </div>
         <div className="contact-form">
           <div className="form-group">
@@ -68,9 +68,9 @@ export default function ContactPage() {
       <footer>
         <div className="footer-bottom" style={{ borderTop: '0.5px solid var(--mist)' }}>
           <div className="footer-social">
-            <a href="https://www.instagram.com/artbeyondage" target="_blank" rel="noopener">Instagram</a>
-            <a href="https://www.facebook.com/artbeyondage" target="_blank" rel="noopener">Facebook</a>
-            <a href="/contact">WhatsApp</a>
+            <a href="https://www.instagram.com/chandni.artbeyondage?igsh=eTkzNjIwa3FtbDJo" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/share/14fsjwrQy7F/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://wa.me/qr/YPCCUYQFCTIGE1" target="_blank" rel="noopener">WhatsApp</a>
           </div>
           <div className="footer-copy">© 2025 Art Beyond Age. All rights reserved.</div>
         </div>

@@ -38,8 +38,8 @@ const jsonLd = {
     addressCountry: 'IN',
   },
   sameAs: [
-    'https://www.instagram.com/artbeyondage',
-    'https://www.facebook.com/artbeyondage',
+    'https://www.instagram.com/chandni.artbeyondage?igsh=eTkzNjIwa3FtbDJo',
+    'https://www.facebook.com/share/14fsjwrQy7F/',
   ],
 }
 
@@ -239,9 +239,9 @@ export default function HomePage() {
         </div>
         <div className="footer-bottom">
           <div className="footer-social">
-            <a href="https://www.instagram.com/artbeyondage" target="_blank" rel="noopener">Instagram</a>
-            <a href="https://www.facebook.com/artbeyondage" target="_blank" rel="noopener">Facebook</a>
-            <a href="/contact">WhatsApp</a>
+            <a href="https://www.instagram.com/chandni.artbeyondage?igsh=eTkzNjIwa3FtbDJo" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/share/14fsjwrQy7F/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://wa.me/qr/YPCCUYQFCTIGE1" target="_blank" rel="noopener">WhatsApp</a>
           </div>
           <div className="footer-copy">© 2025 Art Beyond Age. All rights reserved.</div>
         </div>
