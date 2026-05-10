@@ -81,7 +81,7 @@
   <!-- HERO -->
   <section class="hero">
     <video class="hero-video" autoplay muted loop playsinline>
-      <source src="brand_assets/homepage-hero-section .mp4" type="video/mp4">
+      <source src="https://fpgp9n493uskbupx.private.blob.vercel-storage.com/homepage-hero-section%20.mp4" type="video/mp4">
     </video>
     <div class="hero-overlay"></div>
     <div class="hero-caption-bar">
@@ -283,7 +283,7 @@
     if (heroVideo) {
       const mq = window.matchMedia('(max-width: 768px)');
       const applyVideoSrc = (e) => {
-        const src = e.matches ? 'mobileviewherovid.mp4' : 'brand_assets/homepage-hero-section .mp4';
+        const src = e.matches ? 'https://fpgp9n493uskbupx.private.blob.vercel-storage.com/mobileviewherovid.mp4' : 'https://fpgp9n493uskbupx.private.blob.vercel-storage.com/homepage-hero-section%20.mp4';
         const source = heroVideo.querySelector('source');
         if (source && source.getAttribute('src') !== src) {
           source.setAttribute('src', src);
