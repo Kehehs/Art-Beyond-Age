@@ -196,7 +196,7 @@ export default function AboutPage() {
         <div className="about-founder-row reversed">
           <div className="about-founder-img">
             <img
-              src="/brand_assets/About Page Images/founderimages/mahesh-rai-cofounder-art-beyond-age.webp"
+              src="/brand_assets/About Page Images/founderimages/maheshfounderimage.webp"
               alt="Mahesh Rai, Co-Founder and Strategy Lead, Art Beyond Age"
             />
             <div className="about-founder-img-overlay" />
